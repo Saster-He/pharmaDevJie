@@ -1,0 +1,35 @@
+---
+title: "Create ADaM Dataset"
+author: "Jie He"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Reference: 
+Creating ADaM Subject-Level Analysis Datasets (ADSL) with the Pharmaverse, Part 1:
+https://posit.co/blog/creating-adsl-with-the-pharmaverse-part-1/
+
+
+Notes:
+
+Creating common ADaM datasets follows a workflow that looks something like this:
+
+- Import data that would be helpful to add to your ADaMs
+- Pull in metadata
+- Combine predecessor variables
+- Run any calculations
+- Drop unused variables
+- Export the dataset
+
+With the pharmaverse, the workflow now looks like this:
+
+- Import data: use the haven package to import .sas7bdatfiles into R
+- Pull in metadata: use the metacore package to import and hold metadata, particularly for specifications
+- Combine predecessor variables together: use the metatools package to enable the use of metacore objects
+- Run any calculations / Drop unused variables: combine the tidyverse, metatools, and admiral for any ADaM-building needs
+- Export the dataset: use xportr to export files that meet clinical standards
+
