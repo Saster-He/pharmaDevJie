@@ -1,0 +1,19 @@
+---
+title: "SDTM_oak"
+author: "Jie He"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Reference: 
+SDTM programming in R using {sdtm.oak} package 
+https://www.youtube.com/watch?v=H0FdhG9_ttU
+
+```{r}
+
+```
+
