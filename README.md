@@ -59,3 +59,13 @@ It includes notes, scripts, and resources related to clinical trial workflows, s
 - [Big Book of R](https://www.bigbookofr.com/)  
 - [Hands-On Programming with R (PDF)](https://d1b10bmlvqabco.cloudfront.net/attach/ighbo26t3ua52t/igp9099yy4v10/igz7vp4w5su9/OReilly_HandsOn_Programming_with_R_2014.pdf)  
 - [R for Data Science](https://r4ds.had.co.nz/)
+
+### Technical Infrastructure & Tools
+- [The Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/)
+- [Quarto – Open-Source Scientific and Technical Publishing](https://quarto.org/)
+- [pins – Pin, Discover, and Share Resources](https://pins.rstudio.com/)
+- [OpenVal™ – Validation Framework by Atorus Research](https://www.atorusresearch.com/openval/)
+- [Validation Slides – Posit Public](https://pub.current.posit.team/public/R_Posit_Package_Validation/Validation_slides.html#/test-and-reproducibility-for-shiny)
+- [Next-Gen Statistical Computing Environments (Posit Use Case)](https://posit.co/use-cases/pharma-statistical-computing-environments/)
+- [Securing Credentials – Posit Solutions Guide](https://solutions.posit.co/connections/db/best-practices/managing-credentials/)
+
