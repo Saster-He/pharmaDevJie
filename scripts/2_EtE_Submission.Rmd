@@ -1,0 +1,35 @@
+---
+title: "End-to-End R Submission"
+author: "Jie He"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Resource: Roche: End-to-End R Submission 
+https://www.youtube.com/watch?v=BlJNILSoZlM
+
+Notes:
+Pre-DBL -> DBL -> Post submission - During review
+
+Rshiny App & {teal} open source package
+
+Regulatory Submission Journey:
+SDTM data in xpt format from OAK
+ADaMs data in xpt format from admiral
+
+Internal validation process following https://pharmar.org/white-paper/ (r validation hub white paper)
+
+# Resource: Craig Gower-Page – An arrow towards the future: A critical look at data formats
+https://www.youtube.com/watch?v=ipvcRPr0eig
+
+Formats Considered
+
+1) Plain Text Formats: CSV, JSON
+
+2) Binary Formats: Apache Parquet, Feather, SQLite, DuckDB, RDS, XPT.
+
+3) Binary Formats (Not Benchmarked): Apache Avro, Apache ORC, Protocol Buffers, HDF5.
+
+4) Other Formats (Also Not Benchmarked): Apache Iceberg, Databricks Delta Lake.
+
+
